@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func ButtonPrecionado(_ sender: Any) {
+        print("O botao foi precionado")
+    }
+    
+    
+    @IBOutlet weak var buttonIniciar: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        buttonIniciar.layer.cornerRadius = 12.0
+        
     }
-
-
+    
 }
 

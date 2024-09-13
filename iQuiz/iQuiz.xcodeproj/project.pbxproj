@@ -14,6 +14,7 @@
 		45FF189D2C8FC9FE00D57BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FF189C2C8FC9FE00D57BEE /* Assets.xcassets */; };
 		45FF18A02C8FC9FE00D57BEE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 45FF189F2C8FC9FE00D57BEE /* Base */; };
 		45FF18A82C8FCA9500D57BEE /* 001_explicando.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF18A72C8FCA9400D57BEE /* 001_explicando.swift */; };
+		45FF18AA2C93C9F300D57BEE /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF18A92C93C9F300D57BEE /* QuestaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		45FF189F2C8FC9FE00D57BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45FF18A12C8FC9FE00D57BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45FF18A72C8FCA9400D57BEE /* 001_explicando.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 001_explicando.swift; sourceTree = "<group>"; };
+		45FF18A92C93C9F300D57BEE /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				45FF189E2C8FC9FE00D57BEE /* LaunchScreen.storyboard */,
 				45FF18A12C8FC9FE00D57BEE /* Info.plist */,
 				45FF18A72C8FCA9400D57BEE /* 001_explicando.swift */,
+				45FF18A92C93C9F300D57BEE /* QuestaoViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FF18AA2C93C9F300D57BEE /* QuestaoViewController.swift in Sources */,
 				45FF18982C8FC9FB00D57BEE /* ViewController.swift in Sources */,
 				45FF18942C8FC9FB00D57BEE /* AppDelegate.swift in Sources */,
 				45FF18962C8FC9FB00D57BEE /* SceneDelegate.swift in Sources */,
