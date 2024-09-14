@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5LZ-5m-9bG">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qe9-j0-Suo" userLabel="StartButton">
-                                <rect key="frame" x="84" y="423" width="246" height="50"/>
+                                <rect key="frame" x="84" y="438" width="260" height="50"/>
                                 <color key="backgroundColor" red="0.40433673469387754" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="UAd-LM-FuC"/>
@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="EUk-A4-AMv">
-                                <rect key="frame" x="98.666666666666686" y="277" width="217" height="104"/>
+                                <rect key="frame" x="105.66666666666669" y="292" width="217" height="104"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -62,38 +62,56 @@
             <objects>
                 <viewController id="1fq-mU-ppb" customClass="QuestaoViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eZU-aT-nFh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHx-bk-KJd">
-                                <rect key="frame" x="64" y="382.33333333333331" width="286" height="41"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHx-bk-KJd">
+                                <rect key="frame" x="64" y="388.66666666666669" width="300" height="62"/>
                                 <color key="backgroundColor" red="0.40392156862745099" green="0.32156862745098036" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="H9p-px-L2J"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta 01">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="respostaBotaoPress:" destination="1fq-mU-ppb" eventType="touchUpInside" id="URV-ur-O6B"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSg-9e-Q1C">
-                                <rect key="frame" x="62" y="455.33333333333331" width="290" height="41"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSg-9e-Q1C">
+                                <rect key="frame" x="62" y="480.66666666666669" width="304" height="62.000000000000057"/>
                                 <color key="backgroundColor" red="0.4039215686" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Q5I-Je-Qt4"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta 01">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="respostaBotaoPress:" destination="1fq-mU-ppb" eventType="touchUpInside" id="wCK-FB-MCo"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBc-kH-boW">
-                                <rect key="frame" x="62" y="528.33333333333337" width="290" height="41"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBc-kH-boW">
+                                <rect key="frame" x="62" y="572.66666666666663" width="304" height="62"/>
                                 <color key="backgroundColor" red="0.4039215686" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="OSx-C0-Hwn"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta 01">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="respostaBotaoPress:" destination="1fq-mU-ppb" eventType="touchUpInside" id="voA-P9-F78"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TITULO 01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdU-r3-SDr">
-                                <rect key="frame" x="64" y="200" width="286" height="38.333333333333343"/>
+                                <rect key="frame" x="62" y="203" width="302" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -103,30 +121,30 @@
                         <color key="backgroundColor" red="0.32156862745098036" green="0.11764705882352941" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QdU-r3-SDr" firstAttribute="top" secondItem="KWu-xj-h0w" secondAttribute="top" constant="112" id="1ah-8E-ePe"/>
-                            <constraint firstItem="QdU-r3-SDr" firstAttribute="leading" secondItem="KWu-xj-h0w" secondAttribute="leading" constant="64" id="4Sf-zm-p4P"/>
                             <constraint firstItem="KWu-xj-h0w" firstAttribute="trailing" secondItem="LSg-9e-Q1C" secondAttribute="trailing" constant="62" id="6lb-fl-SOm"/>
-                            <constraint firstItem="lHx-bk-KJd" firstAttribute="top" secondItem="QdU-r3-SDr" secondAttribute="bottom" constant="144" id="B1g-D3-0Lf"/>
+                            <constraint firstItem="lHx-bk-KJd" firstAttribute="top" secondItem="QdU-r3-SDr" secondAttribute="bottom" constant="147.00000000000009" id="B1g-D3-0Lf"/>
                             <constraint firstItem="iBc-kH-boW" firstAttribute="leading" secondItem="KWu-xj-h0w" secondAttribute="leading" constant="62" id="DOT-Tn-Fjl"/>
                             <constraint firstItem="QdU-r3-SDr" firstAttribute="leading" secondItem="KWu-xj-h0w" secondAttribute="leading" constant="62" id="Kjb-bN-VJ2"/>
                             <constraint firstItem="LSg-9e-Q1C" firstAttribute="leading" secondItem="KWu-xj-h0w" secondAttribute="leading" constant="62" id="M6F-em-tqP"/>
-                            <constraint firstItem="iBc-kH-boW" firstAttribute="top" secondItem="LSg-9e-Q1C" secondAttribute="bottom" constant="32" id="RxC-TG-YIS"/>
-                            <constraint firstItem="LSg-9e-Q1C" firstAttribute="top" secondItem="lHx-bk-KJd" secondAttribute="bottom" constant="30" id="SUm-4S-ffH"/>
-                            <constraint firstItem="KWu-xj-h0w" firstAttribute="trailing" secondItem="QdU-r3-SDr" secondAttribute="trailing" constant="64" id="UoS-jN-SBZ"/>
+                            <constraint firstItem="iBc-kH-boW" firstAttribute="top" secondItem="LSg-9e-Q1C" secondAttribute="bottom" constant="30" id="RxC-TG-YIS"/>
                             <constraint firstItem="lHx-bk-KJd" firstAttribute="leading" secondItem="KWu-xj-h0w" secondAttribute="leading" constant="64" id="d0Z-Qx-wnV"/>
-                            <constraint firstItem="LSg-9e-Q1C" firstAttribute="top" secondItem="lHx-bk-KJd" secondAttribute="bottom" constant="32" id="eVA-N1-5nX"/>
-                            <constraint firstItem="QdU-r3-SDr" firstAttribute="leading" secondItem="KWu-xj-h0w" secondAttribute="leading" constant="64" id="g5r-om-6GB"/>
                             <constraint firstItem="KWu-xj-h0w" firstAttribute="trailing" secondItem="iBc-kH-boW" secondAttribute="trailing" constant="62" id="hvd-ln-RvI"/>
-                            <constraint firstItem="QdU-r3-SDr" firstAttribute="top" secondItem="KWu-xj-h0w" secondAttribute="top" constant="112" id="ksr-no-AXC"/>
-                            <constraint firstItem="KWu-xj-h0w" firstAttribute="trailing" secondItem="QdU-r3-SDr" secondAttribute="trailing" constant="62" id="mAa-Xg-ZW0"/>
+                            <constraint firstItem="LSg-9e-Q1C" firstAttribute="top" secondItem="lHx-bk-KJd" secondAttribute="bottom" constant="30" id="jAb-du-vZN"/>
                             <constraint firstItem="KWu-xj-h0w" firstAttribute="trailing" secondItem="lHx-bk-KJd" secondAttribute="trailing" constant="64" id="o3O-HX-dXf"/>
                             <constraint firstItem="KWu-xj-h0w" firstAttribute="trailing" secondItem="QdU-r3-SDr" secondAttribute="trailing" constant="64" id="pUY-BR-naD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vpu-JL-myb"/>
+                    <connections>
+                        <outlet property="labelQuestao" destination="QdU-r3-SDr" id="HrO-R1-8gx"/>
+                        <outletCollection property="respostaButtons" destination="lHx-bk-KJd" collectionClass="NSMutableArray" id="ZGE-6Y-Bdt"/>
+                        <outletCollection property="respostaButtons" destination="LSg-9e-Q1C" collectionClass="NSMutableArray" id="3SS-Lm-qkp"/>
+                        <outletCollection property="respostaButtons" destination="iBc-kH-boW" collectionClass="NSMutableArray" id="kgC-Wd-rCh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GQP-0r-QfF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2362.3188405797105" y="-27.455357142857142"/>
+            <point key="canvasLocation" x="2170" y="-187"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5UX-TA-OWn">
@@ -134,7 +152,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5LZ-5m-9bG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZX6-mB-j0R">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -144,7 +162,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NFW-BW-8Z3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.43478260869566" y="-27.455357142857142"/>
+            <point key="canvasLocation" x="499" y="-187"/>
         </scene>
     </scenes>
     <resources>

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4548A2332C952ECA001EA205 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548A2322C952ECA001EA205 /* Questao.swift */; };
 		45FF18942C8FC9FB00D57BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF18932C8FC9FB00D57BEE /* AppDelegate.swift */; };
 		45FF18962C8FC9FB00D57BEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF18952C8FC9FB00D57BEE /* SceneDelegate.swift */; };
 		45FF18982C8FC9FB00D57BEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF18972C8FC9FB00D57BEE /* ViewController.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4548A2322C952ECA001EA205 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
 		45FF18902C8FC9FB00D57BEE /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FF18932C8FC9FB00D57BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45FF18952C8FC9FB00D57BEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 				45FF18A12C8FC9FE00D57BEE /* Info.plist */,
 				45FF18A72C8FCA9400D57BEE /* 001_explicando.swift */,
 				45FF18A92C93C9F300D57BEE /* QuestaoViewController.swift */,
-				4548A2322C952ECA001EA205 /* Questao.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -151,7 +148,6 @@
 				45FF18982C8FC9FB00D57BEE /* ViewController.swift in Sources */,
 				45FF18942C8FC9FB00D57BEE /* AppDelegate.swift in Sources */,
 				45FF18962C8FC9FB00D57BEE /* SceneDelegate.swift in Sources */,
-				4548A2332C952ECA001EA205 /* Questao.swift in Sources */,
 				45FF18A82C8FCA9500D57BEE /* 001_explicando.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
