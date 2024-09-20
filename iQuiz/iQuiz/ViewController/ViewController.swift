@@ -18,9 +18,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonIniciar.layer.cornerRadius = 12.0
-        
+        configLayout()
     }
     
+    func configLayout(){
+        buttonIniciar.layer.cornerRadius = 12.0
+        navigationItem.hidesBackButton = true
+    }
 }
 

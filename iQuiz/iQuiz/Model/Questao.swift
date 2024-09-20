@@ -37,3 +37,4 @@ let questoes: [Questao] = [Questao(titulo: "Qual feitiço para desarmar o seu op
                               
     Questao(titulo: "Em Harry Potter, qual é o nome da casa de Draco Malfoy em Hogwarts?", respostas: ["Grifinória", "Lufa-Lufa", "Sonserina"], respostaCorret: 2)
 ]
+
